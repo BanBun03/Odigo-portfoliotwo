@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFF;
+}
+.header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	align-self: center;
+}
+.container{
+	max-width: 1060px;
+	margin: 0 auto;
+}
+.header_container{
+	padding-top: 55px;
+	justify-content: space-between;
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+
+.header_list{
+	 display: flex; 
+	 flex-wrap: wrap; 
+}
+.header_input{
+	 padding: 0 0 0 80px; 
+	 color: #fff;
+	 text-decoration: none;
+	 transition: .1s;
+}
+.header_input:hover, .header_input:active,.header_input:focus{
+	opacity: .60;
+	transition: .2s;
+}
+
+.intro{
+	min-height: 64.9vh;
+	padding-top: 260px; 
+	background: url(../style/img/Hero.jpg) no-repeat center center/cover;
+}
+.intro_title{
+	color: #fff;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 60px;
+	font-style: normal;
+	max-width: 620px;
+	margin-bottom: 20px;
+}
+.intro_subtitle{
+	color: #fff;
+	font-weight: 400; 
+	font-size: 16px;
+    line-height: 24px; 
+	font-style: normal;
+	max-width: 545px;
+	margin-bottom: 60px;
+}
+
+.search_form_info{
+	display: flex;
+	 flex-wrap: wrap;
+}
+.search_form_field{
+	width: 300px;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 2px solid #fff;
+	background: url(../style/img/Oval.png) no-repeat left 7px;
+	background-size: 20px;
+	margin-right: 60px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	outline: none;
+}
+.serch_form_submit{
+	padding: 15px 40px;
+	background-color: #1c7cfa;
+	border: 0;
+	color: #fff;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px; 
+	transition: .2s;
+}
+.serch_form_submit:hover, .serch_form_submit:focus, .serch_form_submit:active{
+	transition: .2s;
+	background-color: #1563c9;
+	color: #f0f0f0;
+}
+
+
+
+.benefits_container{
+	max-width: 1260px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0px 2px  20px rgba(21, 24, 36, 0.15993);
+}
+.benefits_cards{
+	height: 30vh;
+}
+.benefist_title{
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 40px;
+	padding: 90px 100px 90px 100px;
+}
